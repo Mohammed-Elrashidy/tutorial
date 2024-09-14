@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+height: 5000px;
+
+}
+.header1{
+    width:100%;
+    height: 55px;
+    background-color: rgb(83, 83, 249);
+    position: fixed;
+    margin-left: 70px;
+    opacity: 0.8;
+    z-index: 10;
+    top: 0;
+    margin-top: 10px;
+    overflow: auto;
+    border-radius: 10px;
+
+}
+.img1{
+    width: 100px;
+    height: 55px;
+    margin-left: 30px;
+    
+}
+.ul1{
+    list-style: none;
+    float:right;
+}
+.ul1 li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.ul1 button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.ul1 button{
+    border: solid 1px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+}
+.header2{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 30px;
+}
+.hr1{
+    width: 75px;
+    height: 2px;
+    background-color:black;
+   display: ;
+}
+.main{
+    width: 90%;
+    height: 575px;
+    background-color: rgb(209, 209, 212);
+    margin-left: 75px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    overflow: auto;
+}
+.left{
+    width: 300px;
+    height: 475px;
+    background-color: rgb(212, 209, 209);
+    float:left;
+    border: solid 2px rgb(62, 62, 190);
+    text-align: center;
+}
+.mid{
+    width: 300px;
+    height: 475px;
+    background-color: rgb(212, 209, 209);
+    float: left;
+    margin-left: 160px;
+    border: solid 2px rgb(62, 62, 190);
+    text-align: center;
+
+
+}
+.right{
+    width: 300px;
+    height: 475px;
+    background-color: rgb(212, 209, 209);
+    float: right;
+    border: solid 2px rgb(62, 62, 190);
+    text-align: center;
+}
+.hr2{
+    width: 75px;
+    height: 2px;
+    background-color:rgb(62, 62, 190);
+}
+.hr3{
+    width: 200px;
+    height: 3px;
+    background-color:rgb(62, 62, 190);
+}
+.bt1{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(83, 83, 249);
+    border-color: rgb(83, 83, 249);
+}
+.bt1:hover{
+    background-color: white;
+}
+.p1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid rgb(83, 83, 249) 1px;
+    margin: auto;
+    padding-top: 10px;
+    line-height: normal;
+    background-repeat: no-repeat;
+    
+}
